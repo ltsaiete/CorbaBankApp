@@ -1,0 +1,20 @@
+module BankApp {
+	interface Account {
+		long create(in string name, in long pass);
+		void deposit(in float amount, in long number);
+		string withdraw(in float amount, in long number);
+		float balance(in long number);
+		boolean login(in long number, in long pass);
+	};
+	interface Bank {
+		Account create();
+	};
+
+	interface Data {
+		long insert(in string name, in long pass);
+		Account read(in long number);
+		long getPass(in long number);
+		float getBalance(in long number);
+		void update(in float balance, in long number);
+	};
+};

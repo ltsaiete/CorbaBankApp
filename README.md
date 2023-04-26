@@ -8,11 +8,6 @@
  <a href="#memo-license">License</a>
 </p>
 
-<h1 align="center">
- <img src="https://unsplash.com/photos/hbb6GkG6p9M" alt="Demo">
-</h1>
-
-
 ## Projecto
   A bank app that uses the CORBA Distributed System architecture 
   
